@@ -1,7 +1,7 @@
 ---
 name: social-alignment
 description: Five-lens alignment framework for sovereign AI agents — evaluate actions across trust, ownership, defense, and sovereignty before proceeding.
-version: 0.1.2
+version: 0.1.4
 metadata:
   openclaw:
     requires:
