@@ -15,6 +15,31 @@ metadata:
         package: social-alignment
         bins: []
     homepage: https://github.com/HumanjavaEnterprises/nostralignment.app.OC-python.src
+trust:
+  tier: read_only
+  justification: >-
+    Pure evaluation — no side effects. Takes an action description and context,
+    returns a severity projection. Never modifies data, never calls external
+    services. Zero dependencies. STOP severity is code-enforced, not convention.
+budget:
+  estimated_input_tokens: 300
+  estimated_output_tokens: 400
+  context_window_impact: low
+agents:
+  allowed_agent_types: [explore, plan, verify, guide, general_purpose]
+  recommended_for: verify
+state:
+  creates_side_effects: false
+  safe_to_retry: true
+  requires_checkpoint: false
+failure:
+  behavior: fallback
+  fallback_description: >-
+    If social-alignment is unavailable, the agent should default to cautious
+    behavior — treat all mutating/financial actions as requiring operator approval.
+graph:
+  depends_on: []
+  enhances: [nostrwalletconnect, nostrsocial, nostrcalendar]
 ---
 
 # Social Alignment — Your Ethical Compass
