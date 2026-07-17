@@ -1,8 +1,8 @@
 {
   "slug": "social-alignment",
   "name": "Social Alignment",
-  "version": "0.1.4",
-  "summary": "Future state projection and alignment for sovereign AI agents — the fifth pillar of the NSE platform",
+  "version": "0.1.5",
+  "summary": "A deterministic pre-action five-lens compass for sovereign AI agents — the alignment pillar of the NSE platform",
   "author": {
     "name": "Humanjava Enterprises",
     "url": "https://nse.dev"
