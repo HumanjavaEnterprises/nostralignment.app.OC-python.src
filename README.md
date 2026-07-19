@@ -18,6 +18,8 @@ pip install social-alignment
 
 > **Import:** `pip install social-alignment` → `from social_alignment import AlignmentEnclave`
 
+> **v0.1.5 — part of the coordinated 2026-07 correctness release** (staged, pending PyPI publish). This is the first real build of the alignment pillar — the package was previously an empty placeholder shell. It ships the deterministic five-lens compass described below, with a pure, dependency-free evaluation core and known-answer tests. See [`CHANGELOG.md`](./CHANGELOG.md).
+
 ## Quick Start
 
 ```python
