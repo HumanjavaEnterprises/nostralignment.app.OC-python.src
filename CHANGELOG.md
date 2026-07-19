@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.1.6 — 2026-07-19
+
+Reconciliation release. Two independent `0.1.5` lineages existed with different
+content — one carrying the real five-lens compass implementation, the other a
+standalone `clawhub/SKILL.md` rewrite. This release unifies both: it keeps the
+compass code, tests, and packaging, and folds in the expanded SKILL.md
+(operator guidance, agent-type metadata, per-lens reference). Because the two
+`0.1.5` builds differed, a fresh version and republish are required.
+
+### Changed
+
+- Merged the SKILL.md documentation rewrite (Operator Guidance section,
+  agentic-primitive frontmatter) on top of the compass implementation.
+- Documentation reworded to plain functional language (removed the
+  "sovereign entity" / "entity-aware" identity framing; the **Sovereign** lens
+  name is unchanged). Example owner name standardized to `vergel`.
+- Version bumped to `0.1.6` across `pyproject.toml`,
+  `src/social_alignment/__init__.py`, `clawhub/metadata.json`, and
+  `clawhub/SKILL.md`.
+
 ## 0.1.5 — 2026-07-19
 
 First real build of the alignment pillar. Prior versions on PyPI (`0.1.0`,

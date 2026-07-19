@@ -1,6 +1,6 @@
 # social-alignment
 
-A deterministic pre-action **five-lens compass** for sovereign AI agents. The
+A deterministic pre-action **five-lens compass** for AI agents. The
 alignment pillar of the NSE platform. Before an agent takes a significant
 action, five lenses evaluate it and the enclave decides whether to proceed,
 inform, ask, or halt.
@@ -41,11 +41,12 @@ npx clawhub publish ./clawhub --slug social-alignment --name "Social Alignment" 
   --version X.Y.Z --tags latest --changelog "..."
 ```
 
-**Version must be bumped in 3 places:** `pyproject.toml`, `src/social_alignment/__init__.py`
-(`__version__`), and `clawhub/metadata.json`.
+**Version must be bumped in 4 places:** `pyproject.toml`, `src/social_alignment/__init__.py`
+(`__version__`), `clawhub/metadata.json`, and `clawhub/SKILL.md` (frontmatter `version:`).
 
-> Note: PyPI already carries `0.1.0` and `0.1.1`; ClawHub metadata had reserved `0.1.4`.
-> This build is `0.1.5` to stay ahead of all reserved versions.
+> Note: PyPI already carries `0.1.0` and `0.1.1`; ClawHub metadata had reserved `0.1.4`,
+> and two divergent `0.1.5` builds were published/pushed. This build is `0.1.6` to stay
+> ahead of all prior versions and requires a republish.
 
 ## Conventions
 

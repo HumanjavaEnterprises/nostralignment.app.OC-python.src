@@ -2,7 +2,7 @@
 
 **A compass for AI agents.**
 
-Before a sovereign agent takes a significant action, five lenses evaluate the
+Before an agent takes a significant action, five lenses evaluate the
 decision from different angles. When something is too big or too risky, the
 agent escalates to its human instead of guessing.
 
@@ -18,7 +18,7 @@ pip install social-alignment
 
 > **Import:** `pip install social-alignment` → `from social_alignment import AlignmentEnclave`
 
-> **v0.1.5 — part of the coordinated 2026-07 correctness release** (staged, pending PyPI publish). This is the first real build of the alignment pillar — the package was previously an empty placeholder shell. It ships the deterministic five-lens compass described below, with a pure, dependency-free evaluation core and known-answer tests. See [`CHANGELOG.md`](./CHANGELOG.md).
+> **v0.1.6 — part of the coordinated 2026-07 correctness release** (staged, pending PyPI publish). This is the first real build of the alignment pillar — the package was previously an empty placeholder shell. It ships the deterministic five-lens compass described below, with a pure, dependency-free evaluation core and known-answer tests. See [`CHANGELOG.md`](./CHANGELOG.md).
 
 ## Quick Start
 
@@ -95,7 +95,7 @@ functions are pure. This makes the compass auditable and testable.
 
 ## How It Fits Together
 
-social-alignment is the fifth pillar of the NSE sovereign-entity ecosystem,
+social-alignment is the fifth pillar of the NSE ecosystem,
 wired together by the [NSE Orchestrator](https://pypi.org/project/nse-orchestrator/).
 Identity, finance, time, relationships, and now alignment — the orchestrator
 detects each pillar if installed and gives the agent one coherent nervous system.
