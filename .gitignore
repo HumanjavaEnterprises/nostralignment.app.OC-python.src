@@ -10,3 +10,5 @@ build/
 *.egg
 .venv/
 venv/
+.venv*
+*.egg-info
